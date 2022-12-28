@@ -6,7 +6,7 @@ export class UserService {
     return { msg: 'It is a user profile!' };
   }
 
-  resetPassword() {
-    return { msg: 'It is a reset password' };
+  resetPassword(version: number) {
+    return { msg: `It is a reset password ${version}` };
   }
 }
