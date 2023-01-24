@@ -6,4 +6,7 @@ import { KonkursService } from './konkurs.service';
   controllers: [KonkursController],
   providers: [KonkursService],
 })
+
+console.log('lorem');
+
 export class KonkursModule {}
