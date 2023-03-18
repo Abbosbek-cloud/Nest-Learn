@@ -24,7 +24,7 @@ export class UserService {
 
   // delete Users
   deleteUser(email: string): User[] {
-    const filteredUser = this.users.filter(
+    const filteredUser: User[] = this.users.filter(
       (user: User) => user.email !== email,
     );
     this.users = filteredUser;
